@@ -1,0 +1,68 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(rgba(90, 81, 81, 0.6), rgba(0, 0, 0, 0.80)), url(juventus-netflix-series-review.jpg);
+  background-size: cover;
+  background-position: absolute;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+.contact-title{
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: show 1s ease-in-out 1s forwards;
+  opacity: 0; 
+}
+.contact-title h1{
+  font-size: 35px;
+  line-height: 10px;
+}
+form{
+  margin-top: 50px;
+  animation: show 1s ease-in-out 1s forwards;
+  opacity: 0; 
+}
+.form-control{
+  width: 300px;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+::placeholder{
+  color: rgba(180, 180, 180, 0.75);
+  opacity:1;
+}
+input{
+  height: 50px;
+}
+form .submit{
+  background: rgba(180, 180, 180, 0.5);
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+}
+form .submit:hover{
+  background-color: rgba(180, 180, 180, 0.8);
+  cursor: pointer;
+}
+@keyframes show {
+  0% {
+  opacity: 0;
+  }
+  100% {
+  opacity: 1;
+  }
+}
